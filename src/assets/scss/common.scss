@@ -1,0 +1,17 @@
+@charset "utf-8";
+/**
+ *  Create Date: 2017-04-14
+ *  common -- 共性
+ *  mixins -- 组件 
+ *  pages  -- 页面
+ *  Note:  文件汇入
+ */
+
+@import 'variables';            // 声明
+
+@import 'common/base';          // 底层
+// @import 'common/table';         // 表格
+// @import 'common/element';       // 篡改
+
+@import 'pages/nav';            // 导航
+// @import 'pages/push';           // 推送
